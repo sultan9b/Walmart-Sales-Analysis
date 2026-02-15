@@ -109,7 +109,7 @@ def cleanup_local_files(**context):
 
 
 with DAG(
-        dag_id='raw_olist_from_kaggle_to_s3',
+        dag_id='raw_walmart_from_kaggle_to_s3',
         default_args=default_args,
         description='Download Walmart dataset from Kaggle and upload to MinIO',
         schedule=None,  # Запускается вручную
